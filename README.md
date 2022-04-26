@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+# Listado de tareas
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Caso de uso
 
-## Available Scripts
+- Se nos solicita una aplicación web en donde podamos poner nuestras tareas diarias, que permita editar, eliminar, agregar tareas, y estas poder marcarlas y desmarcarlas como hechas.
 
-In the project directory, you can run:
+### Scripts disponibles
 
-### `yarn start`
+La base de esta aplicación [ReactJS] fue generada con [Create React App] mediante el gestor de paquetes [yarn].
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+#### `yarn start`
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Corre la aplicacion en modo desarrollo, abrira la vista en tu navegador en `http://localhost:3000`
 
-### `yarn test`
+#### `yarn build`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Construye una aplicacion para producción en el folder `build` ubicado en la raiz de los archivos.
+Empaqueta correctamente React en modo de producción y optimiza la compilación para obtener el mejor rendimiento.
+La compilación se minimiza y los nombres de archivo incluyen los hashes. ¡Tu aplicación está lista para ser implementada!
 
-### `yarn build`
+Consulte mas información acerca de [producción](https://facebook.github.io/create-react-app/docs/deployment).
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Tech
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Esta aplicacion usa usa serie de tecnologias para su funcionamiento y desarrollo correcto:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- [ReactJS] - HTML enhanced for web apps!
+- [Create react app] - awesome web-based text editor
+- [Yarn] - Markdown parser done right. Fast and easy to extend.
+- [Bootstrap] - great UI boilerplate for modern web apps
 
-### `yarn eject`
+## Installation
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Esta aplicacion requiere una serie de dependencias para funcionar, por lo que debe instalar las dependencias necesarias.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### `yarn install`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+se usa para instalar todas las dependencias de un proyecto. Esto se usa más comúnmente cuando acaba de extraer el código de un proyecto, o cuando otro desarrollador en el proyecto ha agregado una nueva dependencia que necesita retomar.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Plugins
 
-## Learn More
+Esta aplicación está actualmente ampliado con los siguientes complementos. Las instrucciones sobre cómo usarlos en su propia aplicación están vinculadas a continuación.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### `yarn add ...`
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+| Plugin      | Descripción                                                   |
+| ----------- | ------------------------------------------------------------- |
+| React Icons | Incluya íconos populares en sus proyectos de React fácilmente |
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[bootstrap]: https://getbootstrap.com/
+[reactjs]: https://es.reactjs.org/
+[create react app]: https://facebook.github.io/create-react-app/docs/getting-started
+[yarn]: https://yarnpkg.com/
+[react icons]: https://react-icons.github.io/react-icons/
