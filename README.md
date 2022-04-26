@@ -43,9 +43,9 @@ Esta aplicación está actualmente ampliado con los siguientes complementos. Las
 
 ### `yarn add ...`
 
-| Plugin      | Descripción                                                   |
-| ----------- | ------------------------------------------------------------- |
-| React Icons | Incluya íconos populares en sus proyectos de React fácilmente |
+| Plugin        | Descripción                                                   |
+| ------------- | ------------------------------------------------------------- |
+| [React Icons] | Incluya íconos populares en sus proyectos de React fácilmente |
 
 [bootstrap]: https://getbootstrap.com/
 [reactjs]: https://es.reactjs.org/
